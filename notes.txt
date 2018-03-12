@@ -1,0 +1,10 @@
+express --view=ejs app
+cd app
+npm install 
+npm install bluebird mongoose mongoose-paginate nodeamon
+
+# edits to package.json file
+
+
+# to test development run
+nodeamon start 
