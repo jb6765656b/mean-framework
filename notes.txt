@@ -1,10 +1,42 @@
+
+https://medium.com/netscape/mean-app-tutorial-with-angular-4-part-1-18691663ea96
+https://medium.com/@nomanbinhussein/mean-app-tutorial-with-angular-4-part-2-4250522c845
+
+#install nodejs v8.x
+#install mongodb mongodb-server
+
+# api and backend
+npm install -g express express-generator
+
 express --view=ejs app
 cd app
 npm install 
 npm install bluebird mongoose mongoose-paginate nodeamon
 
-# edits to package.json file
 
+# edits to package.json file
 
 # to test development run
 nodeamon start 
+
+done
+
+npm i -g npm 
+
+# frontend
+npm install -g @angular/cli
+
+ng new todoapp-angular --style=scss
+cd todoapp-angular
+npm install 
+
+http://dev:4200
+
+npm install --save bootstrap@4.0.0-beta @ng-bootstrap font-awesome
+
+
+src/style.scss
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/font-awesome/css/font-awesome.css';
+
+
